@@ -1,0 +1,50 @@
+\documentclass[11pt,a4paper,twocolumn]{article}
+\usepackage{geometry}
+\usepackage{amsmath}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+
+\geometry{
+	includeheadfoot,
+	margin=2.54cm
+}
+
+\graphicspath{{img/}}
+
+\title{
+	{\huge Project Proposal\\ \emph{Catchy Title}}\\
+	{\large For 2IV06 - Visual Computing Project}
+}
+\author{
+	T.M. van Dalen \\
+	C.J.P van Dueren den Hollander\\
+	{\texttt\{t.m.v.dalen,c.j.p.v.dueren.den.hollander\}}@student.tue.nl
+}
+\date{\today}
+
+\begin{document}
+	\maketitle
+	
+	\input{abstract}
+	
+	\section{Global description}
+	\label{sec:desc}
+	\input{sections/desc}
+
+	\section{Specification of functionality}
+	\label{sec:func}
+	\input{sections/func}
+
+	\section{Interaction}
+	\label{sec:interaction}
+	\input{sections/interaction}
+
+	\section{Planning}
+	\label{sec:planning}
+	\input{sections/planning}
+
+	\bibliographystyle{plain}
+	\bibliography{bibliography}
+\end{document}
